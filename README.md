@@ -7,23 +7,27 @@ Package license: NetBSD
 
 Feedstock license: BSD 3-Clause
 
-Summary: Command line editor library provides generic line editing, history, and tokenization
-functions, similar to those found in GNU Readline.
+Summary: Editline Library (libedit)
 
-
+This is an autotool- and libtoolized port of the NetBSD Editline library
+(libedit). This Berkeley-style licensed command line editor library provides
+generic line editing, history, and tokenization functions, similar to those
+found in GNU Readline
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libedit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libedit-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libedit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libedit-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libedit-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libedit-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libedit-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libedit-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/libedit-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/libedit-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libedit/badges/version.svg)](https://anaconda.org/conda-forge/libedit)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libedit/badges/downloads.svg)](https://anaconda.org/conda-forge/libedit)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libedit-green.svg)](https://anaconda.org/conda-forge/libedit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libedit.svg)](https://anaconda.org/conda-forge/libedit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libedit.svg)](https://anaconda.org/conda-forge/libedit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libedit.svg)](https://anaconda.org/conda-forge/libedit) |
 
 Installing libedit
 ==================
