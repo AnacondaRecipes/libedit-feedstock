@@ -16,7 +16,7 @@ source:
 
 
 build:
-  number: 2
+  number: 1
   run_exports:
     # no info available.  Guessing at x.x.  Change if you know better.
     - {{ pin_subpackage('libedit', max_pin='x.x') }}
@@ -33,6 +33,9 @@ requirements:
     - perl
 
 test:
+  downstreams:
+    - sqlite     # [not GPL_ok]
+    - krb5
   commands:
     - test -f $PREFIX/lib/libedit.dylib  # [osx]
     - test -f $PREFIX/lib/libedit.so     # [linux]
