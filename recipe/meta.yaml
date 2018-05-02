@@ -36,7 +36,7 @@ requirements:
 
 test:
   downstreams:
-    - sqlite     # [not GPL_ok]
+    - sqlite
     - krb5
   commands:
     - test -f $PREFIX/lib/libedit.dylib  # [osx]
