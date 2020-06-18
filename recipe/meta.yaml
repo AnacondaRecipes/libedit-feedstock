@@ -26,10 +26,10 @@ requirements:
     - {{ compiler('c') }}
     - automake
     - autoconf
+    - m4
     - perl
     - make
   host:
-    - m4
     - ncurses
 
   run:
