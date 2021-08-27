@@ -1,7 +1,7 @@
 {% set name = "libedit" %}
 {% set version = "3.1" %}
-{% set date = "20210216" %}
-{% set sha256 = "2283f741d2aab935c8c52c04b57bf952d02c2c02e651172f8ac811f77b1fc77a" %}
+{% set date = "20210714" %}
+{% set sha256 = "3023b498ad593fd7745ae3b20abad546de506b67b8fbb5579637ca69ab82dbc9" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ source:
 
 
 build:
-  number: 1
+  number: 0
   run_exports:
     # no info available.  Guessing at x.x.  Change if you know better.
     - {{ pin_subpackage('libedit', max_pin='x.x') }}
